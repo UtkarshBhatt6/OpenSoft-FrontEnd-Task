@@ -1,0 +1,249 @@
+html {
+    scroll-behavior: smooth;
+}
+.navbar{
+    color:rgb(193, 255, 131);
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    background-color: rgb(205, 248, 255);
+    /* padding: 10px; */
+}
+.navbar>h2{
+    text-decoration: underline;
+    font-family: 'Pacifico', cursive;
+    color: rgb(37, 37, 37);
+    word-spacing: 10px;
+    line-height: 30px;
+}
+.Restaurant{
+    /* text-decoration: underline; */
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(37, 37, 37);
+    word-spacing: 10px;
+    line-height: 30px;
+    /* padding: 10px; */
+    
+}
+#nav {
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0 1em;
+}
+.navigation>li{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 1000;
+    color: red;
+    padding: 0.2em 2em;
+}
+a:link{
+    text-decoration: none;
+    /* color: white; */
+    
+}
+
+#dishes {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#restaurantImages {
+    display: flex;
+    flex-direction: row;
+}
+#socialMedia {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    background-color: red;
+    /* border-radius: 20px; */
+}
+.final{
+    padding: 20px;
+    /* border: 20px; */
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    background-color: red; 
+    color:white;
+    /* border-radius: 20px;; */
+}
+
+.chefs3{
+    /* padding: 20px; */
+    /* border: 20px; */
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    /* background-color: red;  */
+    /* color:white; */
+}
+
+#chef_head{
+    padding: 60px;
+}
+#youtube {
+    padding: 20px;
+}
+#instagram {
+    padding: 20px;
+}
+#whatsapp {
+    padding: 20px;
+}
+#linkedin {
+    padding: 20px;
+}
+#facebook {
+    padding: 20px;
+}
+#twitter {
+    padding: 20px;
+}
+ion-icon {
+    color: black;
+}
+#name{
+    padding: 40px;
+    padding-left: 10px;
+}
+.time{
+    
+    padding: 40px;
+    padding-top: 80px;
+}
+#menuPoint{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;   
+}
+
+    /* //////////////////////////////////////////////////////////////////////////// */
+    @media (min-width: 1025px) {
+        .h-custom {
+        height: 100vh !important;
+        }
+        }
+        
+        .number-input input[type="number"] {
+        -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+        appearance: textfield;
+        }
+        
+        .number-input input[type=number]::-webkit-inner-spin-button,
+        .number-input input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        }
+        
+        .number-input button {
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: 0;
+        position: relative;
+        }
+        
+        .number-input button:before,
+        .number-input button:after {
+        display: inline-block;
+        position: absolute;
+        content: '';
+        height: 2px;
+        transform: translate(-50%, -50%);
+        }
+        
+        .number-input button.plus:after {
+        transform: translate(-50%, -50%) rotate(90deg);
+        }
+        
+        .number-input input[type=number] {
+        text-align: center;
+        }
+        
+        .number-input.number-input {
+        border: 1px solid #ced4da;
+        width: 10rem;
+        border-radius: .25rem;
+        }
+        
+        .number-input.number-input button {
+        width: 2.6rem;
+        height: .7rem;
+        }
+        
+        .number-input.number-input button.minus {
+        padding-left: 10px;
+        }
+        
+        .number-input.number-input button:before,
+        .number-input.number-input button:after {
+        width: .7rem;
+        background-color: #495057;
+        }
+        
+        .number-input.number-input input[type=number] {
+        max-width: 4rem;
+        padding: .5rem;
+        border: 1px solid #ced4da;
+        border-width: 0 1px;
+        font-size: 1rem;
+        height: 2rem;
+        color: #495057;
+        }
+        
+        @media not all and (min-resolution:.001dpcm) {
+        @supports (-webkit-appearance: none) and (stroke-color:transparent) {
+        
+        .number-input.def-number-input.safari_only button:before,
+        .number-input.def-number-input.safari_only button:after {
+        margin-top: -.3rem;
+        }
+        }
+        }
+        
+        .shopping-cart .def-number-input.number-input {
+        border: none;
+        }
+        
+        .shopping-cart .def-number-input.number-input input[type=number] {
+        max-width: 2rem;
+        border: none;
+        }
+        
+        .shopping-cart .def-number-input.number-input input[type=number].black-text,
+        .shopping-cart .def-number-input.number-input input.btn.btn-link[type=number],
+        .shopping-cart .def-number-input.number-input input.md-toast-close-button[type=number]:hover,
+        .shopping-cart .def-number-input.number-input input.md-toast-close-button[type=number]:focus {
+        color: #212529 !important;
+        }
+        
+        .shopping-cart .def-number-input.number-input button {
+        width: 1rem;
+        }
+        
+        .shopping-cart .def-number-input.number-input button:before,
+        .shopping-cart .def-number-input.number-input button:after {
+        width: .5rem;
+        }
+        
+        .shopping-cart .def-number-input.number-input button.minus:before,
+        .shopping-cart .def-number-input.number-input button.minus:after {
+        background-color: #9e9e9e;
+        }
+        
+        .shopping-cart .def-number-input.number-input button.plus:before,
+        .shopping-cart .def-number-input.number-input button.plus:after {
+        background-color: #4285f4;
+        }    
